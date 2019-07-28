@@ -3,8 +3,10 @@
     "",
     "\\jowebresume",
     "\\jowebresume\\src",
-    "\\jowebresume\\src\\app"
+    "\\jowebresume\\src\\app",
+    "\\jowebresume\\src\\assets",
+    "\\jowebresume\\src\\assets\\images"
   ],
-  "SelectedNode": "\\jowebresume\\src\\app\\app.component.ts",
+  "SelectedNode": "\\jowebresume\\src\\assets\\images\\Hommepic.jpg",
   "PreviewInSolutionExplorer": false
 }
