@@ -1,24 +1,42 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    {{ title }}
-  </h1>
+
+<div class="container mainclear">
+  <div class="row text-center">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <h3>Developer</h3>
+      <h5>-</h5>
+      <h3>Project Manager</h3>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+  <div class="row text-center ">
+    <div class="col-md-4"></div>
+    <div class="col-md-2 boxmenu" routerLink="/experience" routerLinkActive="active"> Experience</div>
+    <div class="col-md-2 boxmenu"><a routerLink="/skills" routerLinkActive="active">Skills</a></div>
+    <div class="col-md-4"></div>
+
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4"></div>
+    <div class="col-md-2 boxmenu"><a routerLink="/degrees" routerLinkActive="active">Degrees</a></div>
+    <div class="col-md-2 boxmenu"><a routerLink="/hobbies" routerLinkActive="active">Hobbies</a></div>
+    <div class="col-md-4"></div>
+
+  </div>
+
 </div>
 
 <div class="sidenav">
+  <h1>
+    {{ title }}
+  </h1>
   <a href="#">In</a>
   <a href="#">GitHub</a>
   <a href="#">Gram</a>
+  <a href="#">Email</a>
 </div>
 
-<div class="container mainclear">
-  <div class="row">
-    <div class="col-md-3">Experience</div>
-    <div class="col-md-3">Skills</div>
-    <div class="col-md-3">Degrees</div>
-    <div class="col-md-3">Hobbies</div>
-  </div>
-</div>
+
 
 <router-outlet></router-outlet>
 
