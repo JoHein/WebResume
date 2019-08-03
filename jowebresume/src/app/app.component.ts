@@ -8,18 +8,19 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'Jo Heinen';
-  public show: boolean = true;
+  public show: boolean = false;
 
   constructor(private router: Router) { }
 
   public ngOnInit() {
-
-
-
-
   }
 
   toggle() {
-    this.show = !this.show;
+
+    if (this.show) {
+      this.show = false;
+    } else {
+      this.show = true;
+    }
   }
 }

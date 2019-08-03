@@ -62,3 +62,7 @@ body {
   }
 }
 
+#menu-toggle {
+  z-index: 100;
+}
+

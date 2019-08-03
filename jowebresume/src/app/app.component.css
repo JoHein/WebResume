@@ -1,8 +1,8 @@
-.sidenav {
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+/*.sidenav {
+  z-index: 1; 
+  top: 0; 
   left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden; 
   padding-top: 20px;
   background-image: url("../assets/images/Hommepic.jpg");
   background-repeat: no-repeat;
@@ -14,9 +14,9 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  height: 100%; 
- /* width: 160px; 
-  position: fixed; */
+  height: 100%;
+  width: 160px; 
+  position: fixed; 
 }
 
 
@@ -34,14 +34,17 @@
 
 .sidenav h1 {
   padding: 6px 8px 6px 16px;
-}
+}*/
 
 .boxmenu {
-  line-height: 5em;
+  line-height: 3em;
   color: black;
   background-color: transparent;
   border: 2px solid grey;
   opacity: 1;
-  margin: 0.2em;
-  width:18em;
+  max-width:10em;
+}
+
+.row {
+  margin-bottom:0.5em;
 }
