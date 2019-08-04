@@ -1,103 +1,58 @@
-<!--<section class="container mainclear">
-
-  <div class="row text-center">
-    <div class="col-md-3"></div>
-    <div class="col-md-6 mx-auto my-0 ">
-      <h3>Developer</h3>
-      <h5>-</h5>
-      <h3>Project Manager</h3>
-    </div>
-    <div class="col-md-3"></div>
-  </div>
-  <div class="row text-center ">
-    <div class="col-md-4"></div>
-    <div class="col-md-2 boxmenu" routerLink="/experience" routerLinkActive="active"> Experience</div>
-    <div class="col-md-2 boxmenu" routerLink="/skills" routerLinkActive="active">Skills</div>
-    <div class="col-md-4"></div>
-
-  </div>
-  <div class="row text-center">
-    <div class="col-md-4"></div>
-    <div class="col-md-2 boxmenu" routerLink="/degrees" routerLinkActive="active">Degrees</div>
-    <div class="col-md-2 boxmenu" routerLink="/hobbies" routerLinkActive="active">Hobbies</div>
-    <div class="col-md-4"></div>
-
-  </div>
-
-</section>
-
-<div class="sidenav">
-  <h1>
-    {{ title }}
-  </h1>
-  <a href="#">In</a>
-  <a href="#">GitHub</a>
-  <a href="#">Gram</a>
-  <a href="#">Email</a>
-</div>-->
 
 
 
-<body>
 
 
-  <div  [ngClass]="{'toggled': show}" class="d-flex" id="wrapper">
+  <div class="d-flex flex-column align-self-center h-100">
 
-    <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <div class="row text-center h-50">
     </div>
-    <!-- /#sidebar-wrapper -->
-    <!-- Page Content -->
+    <div class="row text-center h-100">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 align-self-center">
+        <h3>Developer / Project Manager / Nomad</h3>
 
-    <div id="page-content-wrapper">
-
-      <div class="container-fluid">
-        <button (click)="toggle(show)" class="btn btn-primary" id="menu-toggle">Menu</button>
-
-        <div class="row text-center">
-          <div class="col-md-3"></div>
-          <div class="col-md-6 mx-auto my-0 ">
-            <h3>Developer</h3>
-            <h5>-</h5>
-            <h3>Project Manager</h3>
-          </div>
-          <div class="col-md-3"></div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4"></div>
-          <div class="col-md-2 mx-auto boxmenu" routerLink="/experience" routerLinkActive="active"> Experience</div>
-          <div class="col-md-2 mx-auto boxmenu" routerLink="/skills" routerLinkActive="active">Skills</div>
-          <div class="col-md-4"></div>
-        </div>
-
-          <div class="row text-center">
-            <div class="col-md-4"></div>
-            <div class="col-md-2 mx-auto boxmenu" routerLink="/degrees" routerLinkActive="active">Degrees</div>
-            <div class="col-md-2 mx-auto boxmenu" routerLink="/hobbies" routerLinkActive="active">Hobbies</div>
-            <div class="col-md-4"></div>
-
-          </div>
-
-        </div>
       </div>
-    <!-- /#page-content-wrapper -->
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4 mx-auto"></div>
+      <div class="col-md-2 mx-auto boxmenu" routerLink="/experience" routerLinkActive="active"> Experience</div>
+      <div class="col-md-2 mx-auto boxmenu" routerLink="/skills" routerLinkActive="active">Skills</div>
+      <div class="col-md-4 mx-auto"></div>
+    </div>
 
+    <div class="row text-center">
+      <div class="col-md-4 mx-auto"></div>
+      <div class="col-md-2 mx-auto boxmenu" routerLink="/degrees" routerLinkActive="active">Degrees</div>
+      <div class="col-md-2 mx-auto boxmenu" routerLink="/hobbies" routerLinkActive="active">Hobbies</div>
+      <div class="col-md-4 mx-auto"></div>
+    </div>
+    <div class="row text-center h-100">
+    </div>
   </div>
-
-
-</body>
-
-
-
 
 <router-outlet></router-outlet>
 

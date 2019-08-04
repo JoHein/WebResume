@@ -13,6 +13,7 @@ export class AppComponent {
   constructor(private router: Router) { }
 
   public ngOnInit() {
+    this.show = false;
   }
 
   toggle() {
