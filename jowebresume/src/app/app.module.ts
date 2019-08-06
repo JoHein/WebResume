@@ -7,6 +7,9 @@ import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { DegreesComponent } from './degrees/degrees.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LandingComponent } from './landing/landing.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,12 +17,15 @@ import { DegreesComponent } from './degrees/degrees.component';
     ExperienceComponent,
     SkillsComponent,
     HobbiesComponent,
-    DegreesComponent
+    DegreesComponent,
+    NavbarComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingHash,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

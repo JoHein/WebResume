@@ -1,0 +1,50 @@
+.boxmenu {
+  line-height: 3em;
+  color: white;
+  background-color: transparent;
+  border: 2px solid grey;
+  opacity: 1;
+  max-width: 10em;
+  font-weight: 600;
+}
+
+  .boxmenu:hover {
+    line-height: 3em;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid lightgrey;
+    opacity: 1;
+    max-width: 10em;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+.row {
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  color: ghostwhite;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  color: rgba(248,248,255,1);
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.headingline {
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  height: 1px;
+  width: 80px;
+  background: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

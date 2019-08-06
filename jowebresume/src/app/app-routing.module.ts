@@ -4,6 +4,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { DegreesComponent } from './degrees/degrees.component';
+import { LandingComponent } from './landing/landing.component';
 
 const routes: Routes = [
   { path: 'experience', component: ExperienceComponent },
@@ -13,8 +14,8 @@ const routes: Routes = [
 
 
 
-  { path: '', redirectTo: '/', pathMatch: 'full' },
-  { path: '**', redirectTo: '/', pathMatch: 'full' }
+  { path: '', redirectTo: '/landing', pathMatch: 'full' },
+  { path: '**', component: LandingComponent }
 
 ];
 

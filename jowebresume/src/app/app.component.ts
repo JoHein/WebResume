@@ -7,21 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Jo Heinen';
-  public show: boolean = false;
 
   constructor(private router: Router) { }
 
-  public ngOnInit() {
-    this.show = false;
-  }
-
-  toggle() {
-
-    if (this.show) {
-      this.show = false;
-    } else {
-      this.show = true;
-    }
-  }
 }
