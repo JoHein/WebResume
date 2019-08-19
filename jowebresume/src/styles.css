@@ -8,3 +8,6 @@ body {
   height: 100vh;
 }
 
+section {
+  margin-top: 3em;
+}
