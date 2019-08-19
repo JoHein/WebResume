@@ -1,4 +1,124 @@
+<section>
+  <div [@fadeIn]="fadeIn" class="d-flex flex-column align-self-center">
 
-<div>
-  <p>experience works!hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-</div>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="../../assets/images/Alithya-Logore.png" height="100" alt="Logo Alithya">
+        <div class="card-body">
+          <h5 class="card-title">Programmer Analyst</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            Sept. 2015 - Sept. 2018
+          </h6>
+          <h6 class="card-subtitle mb-2 text-muted">Nice - France</h6>
+          <ul>
+            <li>
+              Developed and maintained new software for Air France
+            </li>
+            <li>
+              Managed a small team on an international project
+            </li>
+            <li>
+              Implemented Agile methods for development team
+            </li>
+          </ul>
+          <div class="text-right">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalProjects"><fa-icon [icon]="faPlusCircle"></fa-icon> Projects</a>
+          </div>
+
+        </div>
+        <div class="card-footer text-center bg-transparent">
+          <span class="badge badge-secondary">Java</span>
+          <span class="badge badge-secondary">Angular 4+</span>
+          <span class="badge badge-secondary">Spring Boot</span>
+          <span class="badge badge-secondary">Bootstrap CSS</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="../../assets/images/zeemonore.png" height="100" alt="Logo Zeemono">
+
+        <div class="card-body">
+          <h5 class="card-title">
+            Programmer Analyst
+          </h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            Apr. 2015 - Aug. 2015
+          </h6>
+          <h6 class="card-subtitle mb-2 text-muted">Grenoble - France</h6>
+          <ul>
+            <li>
+              PHP programming Symfony
+            </li>
+          </ul>
+        </div>
+
+        <div class="card-footer text-center bg-transparent">
+          <span class="badge badge-secondary">PHP</span>
+          <span class="badge badge-secondary">Bootstrap CSS</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="../../assets/images/videodeskre.png" height="100" alt="Logo videodesk">
+        <div class="card-body">
+          <h5 class="card-title">Account Manager</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            Apr. 2013 - Nov. 2013
+          </h6>
+          <h6 class="card-subtitle mb-2 text-muted">San Francisco - USA</h6>
+          <ul class="card-text">
+            <li>
+              Promoted the Videodesk solution to clients
+            </li>
+            <li>
+              Sole contributor of the company’s digital marketing
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer text-center bg-transparent">
+          <span class="badge badge-secondary">HTML</span>
+          <span class="badge badge-secondary">Javascript</span>
+          <span class="badge badge-secondary">Customer Support</span>
+          <span class="badge badge-secondary">Digital Marketing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalProjects" tabindex="-1" role="dialog" aria-labelledby="modalProjects" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalCenterTitle">
+            Project Spotlights
+          </h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4>Agile SCRUM Project Management</h4>
+          <p class="text-justify">
+            Organized and facilitated daily stand-ups, documented workflow and ensured procedure followed
+            Created custom tools to monitor team’s progress
+          </p>
+
+          <h4>Monitor Middleware Server</h4>
+          <p class="text-justify">
+            Analysed and identified outline for project roadmap
+            Developed Java/Angular intranet dashboard
+          </p>
+
+          <h4>Netherland/France Project</h4>
+          <p class="text-justify">International development OpenMQ Push Notification</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

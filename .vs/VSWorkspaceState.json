@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\jowebresume",
-    "\\jowebresume\\src",
-    "\\jowebresume\\src\\app",
-    "\\jowebresume\\src\\assets\\images"
+    "\\jowebresume\\src\\app"
   ],
-  "SelectedNode": "\\jowebresume\\src\\app\\app.component.ts",
+  "SelectedNode": "\\jowebresume\\package.json",
   "PreviewInSolutionExplorer": false
 }

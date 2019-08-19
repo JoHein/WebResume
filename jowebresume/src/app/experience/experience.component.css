@@ -1,0 +1,19 @@
+.row {
+
+  margin:1em;
+}
+
+section{
+  margin-top:3em;
+}
+.card{
+  margin-bottom: 0.3em;
+}
+
+span{
+  margin: 0.2em;
+}
+
+.card-deck{
+  margin:0.5em;
+}
