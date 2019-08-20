@@ -11,3 +11,7 @@ body {
 section {
   margin-top: 3em;
 }
+
+.row {
+  margin: 1em;
+}

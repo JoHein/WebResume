@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, transition, useAnimation } from '@angular/animations';
 import { fadeIn } from 'ng-animate';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-landing',
@@ -13,6 +14,8 @@ import { fadeIn } from 'ng-animate';
 export class LandingComponent implements OnInit {
 
   fadeIn: any;
+
+  faFileDownload = faFileDownload;
 
   constructor() { }
 
