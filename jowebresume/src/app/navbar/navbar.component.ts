@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, transition, useAnimation } from '@angular/animations';
 import { fadeIn } from 'ng-animate';
+import { faFileDownload, faEnvelope, } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faInstagram, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -13,6 +15,10 @@ import { fadeIn } from 'ng-animate';
 export class NavbarComponent implements OnInit {
 
   fadeIn: any;
+  faEnvelope = faEnvelope;
+  faLinkedin = faLinkedin;
+  faInstagram = faInstagram;
+  faGithubAlt = faGithubAlt;
 
   constructor() { }
 

@@ -1,10 +1,10 @@
 <nav [@fadeIn]="fadeIn" class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><img src="../../assets/images/LogoJHre.png" height="40"/></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="#"><img src="../../assets/images/LogoJHre.png" height="40" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#togglerNav" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  <div class="collapse navbar-collapse" id="togglerNav">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
         <a class="nav-link" routerLink="/experience" routerLinkActive="active">Experiences</a>
@@ -17,4 +17,11 @@
       </li>
     </ul>
   </div>
+
+  <span>
+    <a href="#"><fa-icon [icon]="faEnvelope"></fa-icon></a>
+    <a href="https://www.instagram.com/jo.elcin/?hl=en" target="_blank"><fa-icon [icon]="faInstagram"></fa-icon></a>
+    <a href="https://www.linkedin.com/in/jocelin-heinen-637a6861" target="_blank"><fa-icon [icon]="faLinkedin"></fa-icon></a>
+    <a href="https://github.com/JoHein" target="_blank"><fa-icon [icon]="faGithubAlt"></fa-icon></a>
+  </span>
 </nav>

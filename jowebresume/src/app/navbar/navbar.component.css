@@ -1,0 +1,17 @@
+
+fa-icon {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+fa-icon {
+  font-size: 1.5em;
+}
+
+a {
+  color: white;
+}
+
+  a:hover {
+    color: cyan;
+  }
