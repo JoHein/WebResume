@@ -30,6 +30,10 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.modal-title{
+  color:black;
+}
+
 h2 {
   color: rgba(0,0,0,1);
   font-weight: bold;

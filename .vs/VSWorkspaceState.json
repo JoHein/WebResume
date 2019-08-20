@@ -7,10 +7,8 @@
     "\\jowebresume\\src\\app\\experience",
     "\\jowebresume\\src\\app\\landing",
     "\\jowebresume\\src\\app\\navbar",
-    "\\jowebresume\\src\\app\\skills",
-    "\\jowebresume\\src\\assets\\images",
-    "\\jowebresume\\src\\assets\\images\\about"
+    "\\jowebresume\\src\\app\\skills"
   ],
-  "SelectedNode": "\\jowebresume\\src\\app\\landing\\landing.component.ts",
+  "SelectedNode": "\\jowebresume\\src\\app\\landing\\landing.component.html",
   "PreviewInSolutionExplorer": false
 }
