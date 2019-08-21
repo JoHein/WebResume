@@ -10,6 +10,9 @@ import { LandingComponent } from './landing/landing.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './about/about.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { RecaptchaModule, RecaptchaFormsModule  } from 'ng-recaptcha';
+import { MailformComponent } from './mailform/mailform.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +21,19 @@ import { AboutComponent } from './about/about.component';
     SkillsComponent,
     NavbarComponent,
     LandingComponent,
-    AboutComponent
+    AboutComponent,
+    MailformComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingHash,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ReactiveFormsModule,
+    FormsModule,
+    RecaptchaModule,
+    RecaptchaFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

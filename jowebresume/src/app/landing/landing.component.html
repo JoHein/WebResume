@@ -1,4 +1,5 @@
 <body>
+
   <div [@fadeIn]="fadeIn" class="d-flex flex-column align-self-center h-100">
 
     <div class="row text-center h-50">
@@ -23,66 +24,19 @@
     <div class="row text-center">
       <div class="col-md-4 mx-auto"></div>
       <div class="col-md-2 mx-auto boxmenu" routerLink="/about" routerLinkActive="active">About</div>
-      <div class="col-md-2 mx-auto boxmenu" routerLink="/hobbies" routerLinkActive="active">Resume <fa-icon [icon]="faFileDownload"></fa-icon></div>
+      <div class="col-md-2 mx-auto boxmenu"> <a class="downPdf" href="../../assets/pdf/Jo_Heinen_Resume.pdf" download> Resume <fa-icon [icon]="faFileDownload"></fa-icon></a></div>
       <div class="col-md-4 mx-auto"></div>
     </div>
 
     <div class="row text-center align-items-center h-100">
 
       <div class="col-md-12">
-        <a href="#"  data-toggle="modal" data-target="#modalMail"><fa-icon [icon]="faEnvelope"></fa-icon></a>
+        <a href="#" data-toggle="modal" data-target="#modalMail"><fa-icon [icon]="faEnvelope"></fa-icon></a>
         <a href="https://www.instagram.com/jo.elcin/?hl=en" target="_blank"><fa-icon [icon]="faInstagram"></fa-icon></a>
         <a href="https://www.linkedin.com/in/jocelin-heinen-637a6861" target="_blank"><fa-icon [icon]="faLinkedin"></fa-icon></a>
         <a href="https://github.com/JoHein" target="_blank"><fa-icon [icon]="faGithubAlt"></fa-icon></a>
       </div>
     </div>
   </div>
-
-  <div class="modal fade" id="modalMail" tabindex="-1" role="dialog" aria-labelledby="modalMail"
-       aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="exampleModalCenterTitle">
-            Contact
-          </h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-row">
-              <div class="col">
-                <label for="firstName">First Name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="First name">
-              </div>
-              <div class="col">
-                <label for="lastName">Last Name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Last name">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-12">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-12">
-                <label for="messageArea">Message</label>
-                <textarea class="form-control" id="messageArea" rows="3" placeholder="Message"></textarea>
-              </div>
-            </div>
-              <div class="form-row">
-                <div class="col-auto my-1">
-                  <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-              </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <app-mailform></app-mailform>
 </body>

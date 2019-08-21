@@ -1,0 +1,52 @@
+
+<div class="modal fade" id="modalMail" tabindex="-1" role="dialog" aria-labelledby="modalMail"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalCenterTitle">
+          Contact
+        </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+
+        <form [formGroup]="mailForm" (ngSubmit)="mailMe(mailForm.value)">
+          <div class="form-row">
+            <div class="col">
+              <label for="firstName">First Name*</label>
+              <input formControlName="firstName" type="text" class="form-control" id="firstName" placeholder="First name" required>
+            </div>
+            <div class="col">
+              <label for="lastName">Last Name*</label>
+              <input formControlName="lastName" type="text" class="form-control" id="lastName" placeholder="Last name" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-12">
+              <label for="inputSubject">Subject*</label>
+              <input formControlName="inputSubject" type="text" class="form-control"
+                     id="inputSubject" placeholder="Subject" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-12">
+              <label for="messageArea">Message*</label>
+              <textarea formControlName="messageArea" class="form-control" id="messageArea" rows="3" placeholder="Message" required></textarea>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-auto my-1">
+              <re-captcha formControlName="recaptchaReactive" (resolved)="resolved($event)" siteKey="6LcTCrQUAAAAAIAgrvOKjsVqN1ig5AXyR1cWJP3m" required></re-captcha>
+              <button type="submit" class="btn btn-primary" [disabled]="!mailForm.valid">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>

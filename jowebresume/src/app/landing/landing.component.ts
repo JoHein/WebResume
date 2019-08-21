@@ -3,6 +3,7 @@ import { trigger, transition, useAnimation } from '@angular/animations';
 import { fadeIn } from 'ng-animate';
 import { faFileDownload, faEnvelope,  } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faInstagram, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-landing',
@@ -21,11 +22,18 @@ export class LandingComponent implements OnInit {
   faLinkedin = faLinkedin;
   faInstagram = faInstagram;
   faGithubAlt = faGithubAlt;
-  
+
+
 
   constructor() { }
 
+
   ngOnInit() {
+
+
   }
+
+
+
 
 }

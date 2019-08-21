@@ -6,6 +6,7 @@
   opacity: 1;
   max-width: 10em;
   font-weight: 600;
+  padding:unset;
 }
 
   .boxmenu:hover {
@@ -74,4 +75,13 @@ a {
 a:hover {
   color: white;
 
-} 
+}
+
+.downPdf {
+  display:inherit;
+  }
+
+.downPdf {
+  text-decoration: none;
+}
+
