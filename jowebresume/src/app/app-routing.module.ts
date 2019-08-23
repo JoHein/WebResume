@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
@@ -21,7 +21,7 @@ export const AppRoutingHash = RouterModule.forRoot(routes, { useHash: true });
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { enableTracing: false }
+    RouterModule.forRoot(routes, { enableTracing: false, preloadingStrategy: PreloadAllModules }
 )
   ],
   exports: [RouterModule]

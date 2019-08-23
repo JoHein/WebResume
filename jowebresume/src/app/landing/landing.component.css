@@ -6,7 +6,7 @@
   opacity: 1;
   max-width: 10em;
   font-weight: 600;
-  padding:unset;
+  padding: unset;
 }
 
   .boxmenu:hover {
@@ -31,8 +31,8 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.modal-title{
-  color:black;
+.modal-title {
+  color: black;
 }
 
 h2 {
@@ -55,33 +55,43 @@ h2 {
 }
 
 body {
-  background-image: url('../../assets/images/landing/Backland.png');
+  background: url('../../assets/images/landing/Backland.png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 fa-icon {
   margin-left: 0.3em;
   margin-right: 0.3em;
-  
 }
 
 .col-md-12 fa-icon {
   font-size: 1.5em;
 }
 
+
 a {
   color: inherit;
 }
 
-a:hover {
-  color: white;
-
-}
+  a:hover {
+    color: white;
+  }
 
 .downPdf {
-  display:inherit;
-  }
+  display: inherit;
+}
 
 .downPdf {
   text-decoration: none;
 }
 
+@media  (max-width: 600px) {
+  .smallish {
+    margin-top: 3em;
+  }
+
+}
