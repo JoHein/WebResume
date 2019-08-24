@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RecaptchaModule, RecaptchaFormsModule  } from 'ng-recaptcha';
 import { MailformComponent } from './mailform/mailform.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { MailformComponent } from './mailform/mailform.component';
     ReactiveFormsModule,
     FormsModule,
     RecaptchaModule,
-    RecaptchaFormsModule
+    RecaptchaFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

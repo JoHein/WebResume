@@ -4,13 +4,9 @@
     "\\jowebresume",
     "\\jowebresume\\src",
     "\\jowebresume\\src\\app",
-    "\\jowebresume\\src\\app\\experience",
-    "\\jowebresume\\src\\app\\landing",
-    "\\jowebresume\\src\\app\\mailform",
-    "\\jowebresume\\src\\app\\navbar",
-    "\\jowebresume\\src\\assets",
-    "\\jowebresume\\src\\assets\\pdf"
+    "\\jowebresume\\src\\app\\about",
+    "\\jowebresume\\src\\app\\mailform"
   ],
-  "SelectedNode": "\\jowebresume\\src\\assets\\pdf",
+  "SelectedNode": "\\jowebresume\\src\\app\\mailform\\mailform.service.ts",
   "PreviewInSolutionExplorer": false
 }
