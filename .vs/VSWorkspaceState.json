@@ -5,8 +5,8 @@
     "\\jowebresume\\src",
     "\\jowebresume\\src\\app",
     "\\jowebresume\\src\\app\\about",
-    "\\jowebresume\\src\\app\\mailform"
+    "\\jowebresume\\src\\app\\landing"
   ],
-  "SelectedNode": "\\jowebresume\\src\\app\\mailform\\mailform.service.ts",
+  "SelectedNode": "\\jowebresume\\src\\app\\landing\\landing.component.css",
   "PreviewInSolutionExplorer": false
 }
